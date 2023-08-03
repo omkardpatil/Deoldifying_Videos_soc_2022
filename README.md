@@ -23,7 +23,7 @@ GAN is the algorithum behind the trending reel of these people do not exist, mot
 
 Basic idea
 
-It contains 2 ML models, one Generator (G) and other Discriminator (D). G generates fake images. D determines if image is fake. D is a simple CNN model for image classification. It is trained to know what are fake and real images. Then training process of G begins. G is created with U-Net architecture, which is a fully connected CNN, which instead of pooling upsamples increasing the resolution in the output. we initiate G with random noise, then 
+It contains 2 ML models, one Generator (G) and other Discriminator (D). G generates fake images. D determines if image is fake. D is a simple CNN model for image classification. It is trained to know what are fake and real images. Then training process of G begins. G is created with U-Net architecture, which is a fully connected CNN, which instead of pooling upsamples increasing the resolution in the output. we initiate G with random noise, then generate images.
 
 
 
